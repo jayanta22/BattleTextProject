@@ -8,8 +8,29 @@
 	<string>${PRODUCT_NAME}</string>
 	<key>CFBundleExecutable</key>
 	<string>${EXECUTABLE_NAME}</string>
+	<key>CFBundleIconFiles</key>
+	<array>
+		<string>Default.png</string>
+		<string>Default@2x.png</string>
+		<string>Icon.png</string>
+		<string>Icon@2x.png</string>
+	</array>
+	<key>CFBundleIcons</key>
+	<dict>
+		<key>CFBundlePrimaryIcon</key>
+		<dict>
+			<key>CFBundleIconFiles</key>
+			<array>
+				<string>icon_120</string>
+				<string>Default.png</string>
+				<string>Default@2x.png</string>
+				<string>Icon.png</string>
+				<string>Icon@2x.png</string>
+			</array>
+		</dict>
+	</dict>
 	<key>CFBundleIdentifier</key>
-	<string>com.AnirbanSahaApp.${PRODUCT_NAME:rfc1034identifier}</string>
+	<string>com.bryant.battletext</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
@@ -17,12 +38,20 @@
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.0</string>
+	<string>1.0.2</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleVersion</key>
-	<string>1.0</string>
+	<string>1.0.2</string>
+	<key>FacebookAppID</key>
+	<string>1418197038418401</string>
+	<key>FacebookDisplayName</key>
+	<string>Battle _Text</string>
+	<key>LSApplicationCategoryType</key>
+	<string></string>
 	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>UIApplicationExitsOnSuspend</key>
 	<true/>
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>
@@ -31,8 +60,6 @@
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
-		<string>UIInterfaceOrientationLandscapeLeft</string>
-		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
 </dict>
 </plist>

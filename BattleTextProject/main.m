@@ -1,8 +1,8 @@
-//
+ //
 //  main.m
 //  BattleTextProject
 //
-//  Created by Anirban on 08/07/12.
+//   Created by freelancer on 08/07/12.
 //  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
 //
 
